@@ -6,10 +6,10 @@ import { calculateCalories } from './calorieCalculator';
 import { calculateTargetHeartRate } from './heartRateCalculator';
 
 function HealthCalculators() {
-    const [weight, setWeight] = useState(70); // Default weight in kg
-    const [height, setHeight] = useState(170); // Default height in cm
-    const [age, setAge] = useState(25); // Default age in years
-    const [gender, setGender] = useState('male'); // Default gender
+    const [weight, setWeight] = useState(70); 
+    const [height, setHeight] = useState(170); 
+    const [age, setAge] = useState(25); 
+    const [gender, setGender] = useState('male'); 
     const [activityLevel, setActivityLevel] = useState('sedentary');
 
     const bmi = calculateBMI(weight, height);
